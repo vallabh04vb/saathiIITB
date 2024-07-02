@@ -9,7 +9,7 @@ export default function Header() {
           Neobrutalism Saas template
         </h1>
         <p className="my-12 mt-8 text-lg font-normal leading-relaxed md:text-xl lg:text-2xl lg:leading-relaxed">
-          Get started with your saas landing page in minutes.
+          {/* Get started with your saas landing page in minutes.
           <br /> Check the{' '}
           <a
             target="_blank"
@@ -18,13 +18,14 @@ export default function Header() {
           >
             github repo
           </a>{' '}
-          for more info.
+          for more info. */}
+          Saathi is IIT Bombay’s LGBTQ+ resource group. It was founded in 2011 to raise awareness on issues relating to the LGBTQ+ community and advocate for an inclusive campus experience for all. We are the oldest queer body in the IITs and one of the oldest across India :)
         </p>
         <Button
           size="lg"
           className="h-12 text-base font-heading md:text-lg lg:h-14 lg:text-xl"
         >
-          Get started
+          More About Us
         </Button>
       </div>
     </header>

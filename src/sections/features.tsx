@@ -1,3 +1,4 @@
+
 import Marquee from 'react-fast-marquee'
 
 const Star = () => {
@@ -101,21 +102,45 @@ const Pentagon = () => {
 export default function Features() {
   const icons = [Star, Star2, Star3, Star4, Plus, Pentagon]
 
-  const feature = {
-    title: 'Feature',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque reiciendis ab similique expedita quaerat nesciunt.',
-  }
+  const features = [{
+    title: 'Advocacy and Education',
+    text: 'Awareness Campaigns: Organizing campaigns to raise awareness about LGBTQ+ issues, rights, and history. \n Workshops and Seminars: Offering educational sessions on topics like LGBTQ+ history, health, and allyship.',
+  },
+  {
+    title: "Support and Social Activities",
+    text: "Peer Support Groups: Providing safe spaces for LGBTQ+ students to share their experiences, seek advice, and build a sense of community. Social Events: Hosting events such as movie nights, game nights, and parties to foster connections among LGBTQ+ students."
+  },
+  {
+    title: "Health and Wellness",
+    text: "Mental Health Support: Providing resources and support for mental health issues that may disproportionately affect LGBTQ+ students. Health Services: Ensuring access to LGBTQ+ friendly health services, including counseling, sexual health, and hormone therapy for transgender students."
+  },
+  {
+    title: "Cultural and Artistic Expression",
+    text: "Pride Events: Organizing events like Pride parades, drag shows, and art exhibitions to celebrate LGBTQ+ culture and identities. Collaborations: Partnering with other student organizations to create inclusive events and activities."
+  },
+  {
+    title: "Networking and Professional Development",
+    text: "Career Resources: Offering career counseling, networking opportunities, and job fairs focused on LGBTQ+ friendly employers. Conferences and Retreats: Attending or organizing conferences and retreats to connect with broader LGBTQ+ networks and learn from leaders in the community."
+  },
+  {
+    title: "Ally Engagement",
+    text: "Ally Training Programs: Educating non-LGBTQ+ students on how to be effective allies.Inclusive Campus Environment: Promoting a campus culture that is inclusive and respectful of all identities."
+  },
+  ]
 
-  const features = Array.from({ length: 6 }, () => ({ ...feature }))
+
 
   return (
     <div>
       <section className="border-t-border dark:border-t-darkBorder dark:bg-darkBg border-t-2 bg-bg py-20 font-base lg:py-[100px]">
         <h2 className="mb-14 px-5 text-center text-2xl font-heading md:text-3xl lg:mb-20 lg:text-4xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing
+          What we do?
         </h2>
 
         <div className="mx-auto grid w-container max-w-full grid-cols-1 gap-5 px-5 sm:grid-cols-2 lg:grid-cols-3">
+
+
+
           {features.map((feature, i) => {
             const Icon = icons[i]
 
@@ -127,13 +152,15 @@ export default function Features() {
                 <Icon />
 
                 <h4 className="mt-2 text-xl font-heading">
-                  {feature.title} {i + 1}
+                  {feature.title}
                 </h4>
                 <p>{feature.text}</p>
               </div>
             )
           })}
+
         </div>
+
       </section>
       <div>
         <Marquee
