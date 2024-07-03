@@ -5,6 +5,7 @@ import { useState } from 'react'
 import Tabs from '@/components/Tabs'
 import img from '@/assets/gender-bread.webp'
 import Image from 'next/image'
+import Footer from '@/components/footer';
 
 
 export default function Detailed() {
@@ -106,6 +107,7 @@ export default function Detailed() {
                     </div>
                 </div>
             </section>
+            <Footer></Footer>
 
         </>
 

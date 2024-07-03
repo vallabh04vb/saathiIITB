@@ -1,14 +1,6 @@
 import Community from "@/components/community"
-
-
-
-    
+import Footer from "@/components/footer"
 export default function Detailed() {
-
-
-
-
-
     return (
 
         <>
@@ -25,6 +17,7 @@ export default function Detailed() {
 
                 </div>
             </section>
+            <Footer></Footer>
 
         </>
 

@@ -11,7 +11,10 @@ const config: Config = {
     extend: {
       backgroundImage:{
         desktop:'url(/neo-brutalism-image1.webp)',
-        mobile:'url(/neo-brutalism-image1-mobile.webp)'
+        mobile:'url(/neo-brutalism-image1-mobile.webp)',
+        'rainbow-gradient': 'linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet)',
+  
+        
       },
       width: {
         container: '1300px',

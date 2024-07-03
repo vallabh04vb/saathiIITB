@@ -1,15 +1,56 @@
+import Saathilogo from "@/assets/saathi.png"
+import iitb from "@/assets/iitb.png"
+import Image from "next/image"
 export default function Footer() {
   return (
-    <footer className="m500:text-sm dark:bg-darkBg z-30 bg-white px-5 py-5 text-center font-base">
-      Released under MIT License. The source code is available on{' '}
-      <a
-        target="_blank"
-        href="https://github.com/neobrutalism-templates/saas"
-        className="font-heading underline"
-      >
-        Github
-      </a>
-      .
-    </footer>
+    <>
+      <section className="bg-black w-full snap-start snap-always shrink-0 ">
+        <div className="mx-[2.5%] pt-5 mb-5">
+
+
+          <div className="flex flex-col md:flex-row justify-between md:items-center items-left md:mb-[5%]">
+            <div className="md:w-[20%] w-[50%] mb-12 md:mb-0">
+            </div>
+
+            <div className="md:w-[12%] w-[40%] mb-12 md:mb-0 md:bl-white">
+            </div>
+            <div className="md:w-[38%] mb-12 md:mb-0">
+              <span className="text-xl text-white">
+                Saathi
+                <p>IIT Bombay, Powai, Mumbai, IN</p>
+                <p><a href="mailto:saathi.iitbombay@gmail.com">saathi.iitbombay@gmail.com</a></p>
+                <p>+91-7506110914</p>
+              </span>
+
+            </div>
+
+          </div>
+
+          <div className="flex flex-col md:flex-row justify-between md:items-center items-left">
+
+          </div>
+          <div className="flex flex-col md:flex-row justify-between md:items-center items-left md:mb-[3%]">
+            <div className="md:w-[20%] w-[50%] mb-12 md:mb-0">
+              <Image src={Saathilogo}
+                width={1000}
+                height={500}
+                alt="Picture of the author"></Image>
+            </div>
+
+            <div className="md:w-[12%] w-[40%] mb-12 md:mb-0 md:bl-white">
+              <Image src={iitb}
+                width={1000}
+                height={5000}
+                alt="Picture of the author"></Image>
+            </div>
+            <div className="md:w-[38%] mb-12 md:mb-0">
+              <span className="text-xl text-white">An initiative by IIT Bombay students</span>
+            </div>
+          </div>
+        </div>
+        <div className="md:h-2 h-1 w-full rounded-md bg-rainbow-gradient ">
+        </div>
+      </section>
+    </>
   )
 }
