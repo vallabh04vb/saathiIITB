@@ -1,6 +1,5 @@
 import type { Config } from 'tailwindcss'
 import tailwindAnimate from 'tailwindcss-animate'
-
 const config: Config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -10,6 +9,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage:{
+        desktop:'url(/neo-brutalism-image1.webp)',
+        mobile:'url(/neo-brutalism-image1-mobile.webp)'
+      },
       width: {
         container: '1300px',
       },
@@ -33,6 +36,10 @@ const config: Config = {
       },
       boxShadow: {
         light: '4px 4px 0px 0px #000',
+        dark: '4px 4px 0px 0px #000',
+      },
+      boxWidth: {
+        '12': '120px 120px 120px 120px #000',
         dark: '4px 4px 0px 0px #000',
       },
       translate: {
