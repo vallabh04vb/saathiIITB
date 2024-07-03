@@ -20,6 +20,7 @@ export default function RootLayout({
       <body className={dmSans.className}>
         <ThemeProvider attribute="class" disableTransitionOnChange>
         <Navbar/>
+        <div id="modal"></div>  
                     {children}
   
         </ThemeProvider>
