@@ -3,7 +3,6 @@ import { faker } from '@faker-js/faker'
 import { useState } from 'react'
 import { Button } from './ui/button'
 
-
 export default function Community() {
     const review = () => {
         return {
@@ -46,8 +45,12 @@ export default function Community() {
                                         </div>
                                     </div>
                                     <div className="mt-5">{review}</div>
-                                    <Button onClick={(e) => {e.stopPropagation();setIsModalActive(true)
-                                         }}>dfkbs</Button>
+    
+                                    <a target="_blank" href="https://twitter.com/" rel="noopener noreferrer">
+                                    <Button onClick={(e) => {
+                                            e.stopPropagation(); setIsModalActive(true)
+                                        }}>dfkbs</Button>
+                                    </a>
                                 </div>
                             ))}
                         </div>
@@ -57,3 +60,6 @@ export default function Community() {
         </section>
     )
 }
+
+
+// TODO: Create a github page which will kind of be an index of all the markdown files
