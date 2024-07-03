@@ -154,7 +154,7 @@ export default function Identity() {
           <h2 className="text-6xl md:text-7xl mb-12 tracking-tight font-bold">
             Identities
           </h2>
-          <div className="flex flex-col md:flex-row justify-between items-center  border-12 ">
+          <div className="flex flex-col md:flex-row justify-between items-center   md:mb-6">
             <div className="md:w-[20%] mb-12 md:mb-0">
               <Card
                 thumbnail={Cards[0].img}
@@ -193,7 +193,7 @@ export default function Identity() {
             </div>
           </div>
 
-          <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="flex flex-col md:flex-row justify-between items-center  md:mb-6">
             <div className="md:w-[20%] mb-12 md:mb-0">
               <Card
                 thumbnail={Cards[4].img}
@@ -232,7 +232,7 @@ export default function Identity() {
             </div>
           </div>
 
-          <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="flex flex-col md:flex-row justify-between items-center  md:mb-6">
             <div className="md:w-[20%] mb-12 md:mb-0">
               <Card
                 thumbnail={Cards[9].img}
@@ -270,7 +270,7 @@ export default function Identity() {
               />
             </div>
           </div>
-          <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="flex flex-col md:flex-row justify-between items-center  md:mb-6">
             <div className="md:w-[20%] mb-12 md:mb-0">
               <Card
                 thumbnail={Cards[13].img}
