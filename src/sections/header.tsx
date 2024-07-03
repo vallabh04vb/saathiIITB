@@ -1,4 +1,6 @@
 import { Button } from '@/components/ui/button'
+import Image from 'next/image'
+import Saathilogo  from '@/assets/saathi.png'
 
 export default function Header() {
   return (
@@ -6,19 +8,10 @@ export default function Header() {
       <div className="mx-auto w-container max-w-full px-5 py-[110px] text-center lg:py-[150px]">
         
         <h1 className="text-3xl font-heading md:text-4xl lg:text-5xl">
-          Neobrutalism Saas template
+          <Image src={Saathilogo} width={5000} height={5000} alt='sfcfsdf'></Image>
         </h1>
         <p className="my-12 mt-8 text-lg font-normal leading-relaxed md:text-xl lg:text-2xl lg:leading-relaxed">
-          {/* Get started with your saas landing page in minutes.
-          <br /> Check the{' '}
-          <a
-            target="_blank"
-            href="https://github.com/neobrutalism-templates/saas"
-            className="font-heading underline"
-          >
-            github repo
-          </a>{' '}
-          for more info. */}
+
           Saathi is IIT Bombay’s LGBTQ+ resource group. It was founded in 2011 to raise awareness on issues relating to the LGBTQ+ community and advocate for an inclusive campus experience for all. We are the oldest queer body in the IITs and one of the oldest across India :)
         </p>
         <Button
