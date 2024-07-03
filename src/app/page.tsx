@@ -2,9 +2,8 @@ import Community from '@/sections/community'
 import Features from '@/sections/features'
 import Header from '@/sections/header'
 import Faq from '@/sections/faq'
-import Pricing from '@/sections/pricing'
 import Footer from '@/components/footer'
-import Nav from '@/components/nav'
+
 
 export default function Home() {
   return (
