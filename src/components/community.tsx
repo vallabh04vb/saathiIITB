@@ -1,7 +1,6 @@
 'use client';
 import { faker } from '@faker-js/faker'
 import { useState } from 'react'
-import Modal from '@/components/modal'
 import { Button } from './ui/button'
 
 
@@ -12,6 +11,7 @@ export default function Community() {
             fullName: faker.person.fullName(),
             jobTitle: faker.person.jobTitle(),
             review: faker.lorem.sentences({ min: 1, max: 3 }),
+            story: faker.lorem.sentences({ min: 200, max: 500 })
         }
     }
     const [isModalActive, setIsModalActive] = useState(false)
@@ -28,8 +28,8 @@ export default function Community() {
                         [review(), review(), review()],
                         [review(), review()],
                     ].map((card, index) => (
-                        <div className="group flex flex-col justify-center" key={index} onClick={() => setIsModalActive(true)}>
-                            {card.map(({ jobTitle, pfp, fullName, review }, index) => (
+                        <div className="group flex flex-col justify-center" key={index} >
+                            {card.map(({ jobTitle, pfp, fullName, review, story }, index) => (
                                 <div
                                     className="border-border dark:border-darkBorder shadow-light dark:shadow-dark dark:bg-darkBg mb-4 min-h-48 w-full rounded-base border-2 bg-bg p-5 lg:mb-8 w900:mx-auto w900:min-h-20 w900:w-2/3 w500:w-full"
                                     key={index}
@@ -41,17 +41,14 @@ export default function Community() {
                                             alt="pfp"
                                         />
                                         <div>
-                                            <h4 className="text-lg font-heading">Dipaua</h4>
+                                            <h4 className="text-lg font-heading">{fullName}</h4>
                                             <p className="text-sm font-base">{jobTitle}</p>
                                         </div>
                                     </div>
                                     <div className="mt-5">{review}</div>
-                                    <Button onClick={() => setIsModalActive(true)}>dfkbs</Button>
-                                    <Modal active={isModalActive} setActive={setIsModalActive}>
-                                        <p>This is modal</p>
-                                    </Modal>
+                                    <Button onClick={(e) => {e.stopPropagation();setIsModalActive(true)
+                                         }}>dfkbs</Button>
                                 </div>
-
                             ))}
                         </div>
                     ))}
