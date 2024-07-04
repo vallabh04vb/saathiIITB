@@ -20,7 +20,6 @@ import i14 from '../../assets/flags/14.webp'
 import i15 from '../../assets/flags/15.webp'
 import i16 from '../../assets/flags/16.webp'
 import i17 from '../../assets/flags/17.webp'
-
 const flags = [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13, i14, i15, i16, i17]
 
 
@@ -133,14 +132,14 @@ let Cards = [
 export default function Identity() {
   return (
     <>
-      <section className="bg-teal-200 w-full h-[calc(100vh-80px)] min-h-screen snap-start snap-always shrink-0">
-        <div className="w-full h-full bg-pink-200 relative bg-cover bg-no-repeat bg-center bg-scroll bg-mobile md:bg-desktop">
+      <section id="identity" className="bg-teal-200 w-full h-[calc(100vh-80px)] min-h-screen snap-start snap-always shrink-0">
+        <div className="w-full h-full relative bg-cover bg-no-repeat bg-center bg-scroll bg-mobile md:bg-desktop">
           <div className="px-5 md:px-40 flex flex-col md:flex-row items-center md:items-end gap-8 md:gap-12">
             <div className="mt-32 md:mt-10">
-              <h1 className="text-5xl md:text-6xl font-black md:pt-14 tracking-tight hero-font mb-5">
+              <h1 className="dark:text-{black} text-5xl md:text-6xl font-black text-lg md:pt-14 tracking-tight hero-font mb-5">
                 Identity Resources
               </h1>
-              <p className="text-2xl md:text-1xl hero-font">
+              <p className="text-2xl md:text-1xl hero-font text-{black">
                 These resources introduce common terms for various sexual orientations. They are not exhaustive in terms or explanations. Labels aim to help people express their feelings, not to categorize them. We hope this serves as a helpful starting point for understanding different sexual orientations and supporting the LGBTQ+ community.
               </p>
             </div>
@@ -149,7 +148,7 @@ export default function Identity() {
         </div>
       </section>
 
-      <section className="bg-purple-200 w-full md:h-full snap-start snap-always shrink-0 ">
+      <section className="bg-purple-200 dark:bg-darkBg w-full md:h-full snap-start snap-always shrink-0 ">
         <div className="px-5 md:px-24 h-full py-20 2xl:p-32 ">
           <h2 className="text-6xl md:text-7xl mb-12 tracking-tight font-bold">
             Identities
