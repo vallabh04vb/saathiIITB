@@ -1,6 +1,10 @@
 import Saathilogo from "@/assets/saathi.png"
 import iitb from "@/assets/iitb.png"
 import Image from "next/image"
+import insta from '@/assets/instagram.svg'
+import fb from '@/assets/facebook.svg'
+import tw from '@/assets/twitter.svg'
+
 export default function Footer() {
   return (
     <>
@@ -9,7 +13,20 @@ export default function Footer() {
 
 
           <div className="flex flex-col md:flex-row justify-between md:items-center items-left md:mb-[5%]">
-            <div className="md:w-[20%] w-[50%] mb-12 md:mb-0">
+            <div className="md:w-[20%] w-[50%] mb-12 md:mb-0 flex flex-row">
+              <Image src={insta}
+                width={35}
+                height={35}
+                alt="Picture of the author" className="mr-[2%]"></Image>
+              <Image src={fb}
+                width={35}
+                height={35}
+                alt="Picture of the author" className="mr-[2%]"></Image>
+              <Image src={tw}
+                width={35}
+                height={35}
+                alt="Picture of the author"></Image>
+
             </div>
 
             <div className="md:w-[12%] w-[40%] mb-12 md:mb-0 md:bl-white">
