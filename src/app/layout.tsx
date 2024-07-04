@@ -6,7 +6,7 @@ import Navbar from '@/components/nav'
 const dmSans = DM_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Neobrutalism Saas template',
+  title: 'Saathi IITB',
 }
 
 export default function RootLayout({
