@@ -34,7 +34,7 @@ export default function ThemeSwitcher() {
                         Blog
                 </Link>
                 <Link className="block w-full text-text border-b-2 border-border dark:border-darkBorder bg-main px-5 py-4 hover:bg-mainAccent"
-                    href="/identity">
+                    href="/welfare">
                         Welfare
                 </Link>
                 <div className="block w-full text-text border-b-2 border-border dark:border-darkBorder bg-main px-5 py-4 hover:bg-mainAccent"
