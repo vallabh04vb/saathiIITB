@@ -39,10 +39,7 @@ export default function Detailed() {
                             <div className="max-w-full rounded-b-base border-2 border-border dark:border-darkBorder bg-white dark:bg-darkBg p-5 font-base">
                                 {activeTab === 'Coming Out' && (
                                     <div>
-                                        <h3>Tab 1</h3>
-
-
-                                        <section className="bg-purple-200 w-full md:h-full snap-start snap-always shrink-0 ">
+                                        <section className="bg-pink-200 w-full md:h-full snap-start snap-always shrink-0 ">
                                             <div className="px-5 md:px-24 h-full py-20 2xl:p-32 space-y-9">
                                                 <h2 className="text-6xl md:text-7xl mb-12 tracking-tight font-bold">
                                                     Basics Of Gender And Sexuality
@@ -63,10 +60,7 @@ export default function Detailed() {
                                 )}
                                 {activeTab === 'For allies' && (
                                     <div>
-                                        <h3>Tab 2</h3>s
-
-
-                                        <section className="bg-purple-200 w-full md:h-full snap-start snap-always shrink-0 ">
+                                        <section className="bg-green-200 w-full md:h-full snap-start snap-always shrink-0 ">
                                             <div className="px-5 md:px-24 h-full py-20 2xl:p-32 space-y-9">
                                                 <h2 className="text-6xl md:text-7xl mb-12 tracking-tight font-bold">
                                                     Basics Of Gender And Sexuality
@@ -87,10 +81,7 @@ export default function Detailed() {
                                 )}
                                 {activeTab === 'Mental Health' && (
                                     <div>
-                                        <h3>Tab 3</h3>
-
-
-                                        <section className="bg-purple-200 w-full md:h-full snap-start snap-always shrink-0 ">
+                                        <section className="bg-blue-200 w-full md:h-full snap-start snap-always shrink-0 ">
                                             <div className="px-5 md:px-24 h-full py-20 2xl:p-32 space-y-9">
                                                 <h2 className="text-6xl md:text-7xl mb-12 tracking-tight font-bold">
                                                     Basics Of Gender And Sexuality
