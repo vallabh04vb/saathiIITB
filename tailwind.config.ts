@@ -13,7 +13,8 @@ const config: Config = {
         desktop:'url(/neo-brutalism-image1.webp)',
         mobile:'url(/neo-brutalism-image1-mobile.webp)',
         'rainbow-gradient': 'linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet)',
-  
+        aboutUs:'url(/aboutuscover.jpg)',
+        aboutUsMobile:'url(/aboutuscoverMobile.jpg)',
         
       },
       width: {

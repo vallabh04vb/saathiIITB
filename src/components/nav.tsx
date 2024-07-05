@@ -27,6 +27,10 @@ export default function Nav() {
             path: '/blog',
             text: 'Blog',
         },
+        {
+            path: '/about',
+            text: 'About',
+        },
     ]
 
     return (

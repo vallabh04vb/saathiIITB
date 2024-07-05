@@ -24,18 +24,22 @@ export default function ThemeSwitcher() {
 
                 <span className="sr-only">Toggle theme</span>
             </Button>
-            <Drawer active={isDrawerActive} setActive={setIsDrawerActive}>
+            <Drawer active={isDrawerActive} setActive={setIsDrawerActive} >
                 <Link className="block w-full text-text border-b-2 border-border dark:border-darkBorder bg-main px-5 py-4 hover:bg-mainAccent"
-                    href="/identity">
+                    href="/identity" >
                         Identity
+                </Link>
+                <Link className="block w-full text-text border-b-2 border-border dark:border-darkBorder bg-main px-5 py-4 hover:bg-mainAccent"
+                    href="/welfare">
+                        Welfare
                 </Link>
                 <Link className="block w-full text-text border-b-2 border-border dark:border-darkBorder bg-main px-5 py-4 hover:bg-mainAccent"
                     href="/blog">
                         Blog
                 </Link>
                 <Link className="block w-full text-text border-b-2 border-border dark:border-darkBorder bg-main px-5 py-4 hover:bg-mainAccent"
-                    href="/welfare">
-                        Welfare
+                    href="/about">
+                        About Us
                 </Link>
                 <div className="block w-full text-text border-b-2 border-border dark:border-darkBorder bg-main px-5 py-4 hover:bg-mainAccent"
                         onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}>
