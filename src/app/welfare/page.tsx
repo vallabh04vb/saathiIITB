@@ -11,7 +11,7 @@ import Footer from '@/components/footer';
 export default function Detailed() {
 
 
-    const [activeTab, setActiveTab] = useState('Tab 1')
+    const [activeTab, setActiveTab] = useState('Coming Out')
     const tabsArray = ['Coming Out', 'For allies', 'Mental Health']
 
 
@@ -19,7 +19,7 @@ export default function Detailed() {
     return (
 
         <>
-            <section className="bg-purple-200 w-full md:h-full snap-start snap-always shrink-0 ">
+            <section className="bg-purple-200 dark:bg-purple-800 w-full md:h-full snap-start snap-always shrink-0 ">
                 <div className="px-5 md:px-24 h-full py-20 2xl:p-32 ">
                     <h2 className="text-6xl md:text-7xl mb-12 tracking-tight font-bold">
                         Welfare Resources
@@ -39,7 +39,7 @@ export default function Detailed() {
                             <div className="max-w-full rounded-b-base border-2 border-border dark:border-darkBorder bg-white dark:bg-darkBg p-5 font-base">
                                 {activeTab === 'Coming Out' && (
                                     <div>
-                                        <section className="bg-pink-200 w-full md:h-full snap-start snap-always shrink-0 ">
+                                        <section className="bg-pink-200 dark:bg-pink-800 w-full md:h-full snap-start snap-always shrink-0 ">
                                             <div className="px-5 md:px-24 h-full py-20 2xl:p-32 space-y-9">
                                                 <h2 className="text-6xl md:text-7xl mb-12 tracking-tight font-bold">
                                                     Basics Of Gender And Sexuality
@@ -60,7 +60,7 @@ export default function Detailed() {
                                 )}
                                 {activeTab === 'For allies' && (
                                     <div>
-                                        <section className="bg-green-200 w-full md:h-full snap-start snap-always shrink-0 ">
+                                        <section className="bg-green-200 dark:bg-green-800 w-full md:h-full snap-start snap-always shrink-0 ">
                                             <div className="px-5 md:px-24 h-full py-20 2xl:p-32 space-y-9">
                                                 <h2 className="text-6xl md:text-7xl mb-12 tracking-tight font-bold">
                                                     Basics Of Gender And Sexuality
@@ -81,7 +81,7 @@ export default function Detailed() {
                                 )}
                                 {activeTab === 'Mental Health' && (
                                     <div>
-                                        <section className="bg-blue-200 w-full md:h-full snap-start snap-always shrink-0 ">
+                                        <section className="bg-blue-200 dark:bg-blue-800 w-full md:h-full snap-start snap-always shrink-0 ">
                                             <div className="px-5 md:px-24 h-full py-20 2xl:p-32 space-y-9">
                                                 <h2 className="text-6xl md:text-7xl mb-12 tracking-tight font-bold">
                                                     Basics Of Gender And Sexuality
