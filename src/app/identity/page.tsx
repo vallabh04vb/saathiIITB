@@ -4,23 +4,23 @@ import Card from "@/components/card"
 import Marquee from "react-fast-marquee"
 import Image from "next/image"
 import Footer from "@/components/footer"
-import i1 from '../../assets/flags/1.webp'
-import i2 from '../../assets/flags/2.webp'
-import i3 from '../../assets/flags/3.webp'
-import i4 from '../../assets/flags/4.webp'
-import i5 from '../../assets/flags/5.webp'
-import i6 from '../../assets/flags/6.webp'
-import i7 from '../../assets/flags/7.webp'
-import i8 from '../../assets/flags/8.webp'
-import i9 from '../../assets/flags/9.webp'
-import i10 from '../../assets/flags/10.webp'
-import i11 from '../../assets/flags/11.webp'
-import i12 from '../../assets/flags/12.webp'
-import i13 from '../../assets/flags/13.webp'
-import i14 from '../../assets/flags/14.webp'
-import i15 from '../../assets/flags/15.webp'
-import i16 from '../../assets/flags/16.webp'
-import i17 from '../../assets/flags/17.webp'
+import i1 from '@/assets/flags/1.webp'
+import i2 from '@/assets/flags/2.webp'
+import i3 from '@/assets/flags/3.webp'
+import i4 from '@/assets/flags/4.webp'
+import i5 from '@/assets/flags/5.webp'
+import i6 from '@/assets/flags/6.webp'
+import i7 from '@/assets/flags/7.webp'
+import i8 from '@/assets/flags/8.webp'
+import i9 from '@/assets/flags/9.webp'
+import i10 from '@/assets/flags/10.webp'
+import i11 from '@/assets/flags/11.webp'
+import i12 from '@/assets/flags/12.webp'
+import i13 from '@/assets/flags/13.webp'
+import i14 from '@/assets/flags/14.webp'
+import i15 from '@/assets/flags/15.webp'
+import i16 from '@/assets/flags/16.webp'
+import i17 from '@/assets/flags/17.webp'
 import Link from "next/link"
 const flags = [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13, i14, i15, i16, i17]
 
@@ -133,17 +133,17 @@ export default function Identity() {
             <div className="mt-32 md:mt-10">
               <h1 className="dark:text-{black} text-5xl md:text-6xl font-black text-lg md:pt-14 tracking-tight hero-font mb-5">
                 <span className="text-[black]">Identity Resources</span>
-                
+
               </h1>
               <p className="text-2xl md:text-1xl hero-font ">
                 <span className="text-[black]">These resources introduce common terms for various sexual orientations. They are not exhaustive in terms or explanations. Labels aim to help people express their feelings, not to categorize them. We hope this serves as a helpful starting point for understanding different sexual orientations and supporting the LGBTQ+ community.</span>
               </p>
             </div>
             <Link href={'/identity/detailed'}>
-            <Button >Common Terms</Button>
+              <Button >Common Terms</Button>
             </Link>
-            
-          
+
+
           </div>
         </div>
       </section>
