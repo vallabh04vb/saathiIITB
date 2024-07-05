@@ -1,0 +1,155 @@
+[33mcommit 9165f78727ed38b70e5403f6e173fdd9b817a8c5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Dipayan Das <d.dipayan2002@gmail.com>
+Date:   Fri Jul 5 00:03:43 2024 +0530
+
+    modified an apostrophe error
+
+[33mcommit 30ab93797edef01dde701f57bc071baa1a7b816d[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Dipayan Das <d.dipayan2002@gmail.com>
+Date:   Thu Jul 4 20:12:20 2024 +0530
+
+    fixed slow transition bug
+
+[33mcommit ae7dc23d434cf0a172de92f134138c0f741784dc[m
+Author: Dipayan Das <d.dipayan2002@gmail.com>
+Date:   Thu Jul 4 10:06:04 2024 +0530
+
+    minor bug fix
+
+[33mcommit 9e520116c02be3946978c64d9b146b6e1acf476c[m
+Author: Dipayan Das <d.dipayan2002@gmail.com>
+Date:   Thu Jul 4 08:42:44 2024 +0530
+
+    added favicon
+
+[33mcommit 3896012d506e295792568d45f8ab7d4d03e1bc64[m
+Author: Dipayan Das <d.dipayan2002@gmail.com>
+Date:   Thu Jul 4 08:01:20 2024 +0530
+
+    modified title
+
+[33mcommit adcbb65a02a82926b10faaa7f469f7cf4771c55b[m
+Author: Dipayan Das <d.dipayan2002@gmail.com>
+Date:   Thu Jul 4 07:54:00 2024 +0530
+
+    removed unnecesary spaces and added markdown
+
+[33mcommit b03adc920f653d827b4314cdad6916f9e16ba51d[m
+Author: Dipayan Das <d.dipayan2002@gmail.com>
+Date:   Thu Jul 4 07:49:24 2024 +0530
+
+    added link to saathi icon
+
+[33mcommit 1f6976ea82dd6f9cddaec7b1f47a1f4bbd922ec7[m
+Author: Dipayan Das <d.dipayan2002@gmail.com>
+Date:   Thu Jul 4 07:42:02 2024 +0530
+
+    added welfare page
+
+[33mcommit 63715a5c2bea03f8ddf8f33b9197cc93903e0d99[m
+Author: Dipayan Das <d.dipayan2002@gmail.com>
+Date:   Thu Jul 4 06:34:57 2024 +0530
+
+    added social links in footer
+
+[33mcommit 95d637d666dfa5d75467e71cb42fe2db063ac511[m
+Author: Dipayan Das <d.dipayan2002@gmail.com>
+Date:   Thu Jul 4 06:18:25 2024 +0530
+
+    fixed apostrophe production build issue
+
+[33mcommit 92876f9bf6047c955138c5620ef46381ebf1fcdd[m
+Author: Dipayan Das <d.dipayan2002@gmail.com>
+Date:   Thu Jul 4 05:47:15 2024 +0530
+
+    added responsiveness to navbar
+
+[33mcommit 562171d9ffc96fc2c87b7dc917c3efcf534a7923[m
+Author: Dipayan Das <d.dipayan2002@gmail.com>
+Date:   Thu Jul 4 05:10:43 2024 +0530
+
+    added saathi logo in navigation bar
+
+[33mcommit d32c12634e5bdcb4b54853d314ad4f840fa75882[m
+Author: Dipayan Das <d.dipayan2002@gmail.com>
+Date:   Thu Jul 4 05:05:25 2024 +0530
+
+    added saathi logo in header
+
+[33mcommit 768c66f4bcbac970519b5e7491e130cdb5947265[m
+Author: Dipayan Das <d.dipayan2002@gmail.com>
+Date:   Thu Jul 4 04:51:33 2024 +0530
+
+    added footer
+
+[33mcommit a7e91b0ff7bd817a0bba90c0c5e15f2f52e2b375[m
+Author: Dipayan Das <d.dipayan2002@gmail.com>
+Date:   Thu Jul 4 02:49:09 2024 +0530
+
+    added blog individual posts
+
+[33mcommit c2e42b22c6def82620a75acc253da8fd58370f03[m
+Author: Dipayan Das <d.dipayan2002@gmail.com>
+Date:   Thu Jul 4 02:04:18 2024 +0530
+
+    removed unused imports
+
+[33mcommit 3f6b962377313191db0bc62f84e67891726e3c11[m
+Author: Dipayan Das <d.dipayan2002@gmail.com>
+Date:   Thu Jul 4 02:00:49 2024 +0530
+
+    renmoved modal all together
+
+[33mcommit d7016ac6f92d316517690031d6e38442059c190e[m
+Author: Dipayan Das <d.dipayan2002@gmail.com>
+Date:   Thu Jul 4 00:54:52 2024 +0530
+
+    added modal in blog page
+
+[33mcommit ff2c376a91c717ccef561e7e383bc540ad526291[m
+Author: Dipayan Das <d.dipayan2002@gmail.com>
+Date:   Wed Jul 3 23:44:13 2024 +0530
+
+    added modal component
+
+[33mcommit 6ea60b076ab037776617da263fc12176d1c5c776[m
+Author: Dipayan Das <d.dipayan2002@gmail.com>
+Date:   Wed Jul 3 23:42:28 2024 +0530
+
+    fixed margin issue in identity page
+
+[33mcommit e2f7510c68539793440e6223a6d3c083708ae429[m
+Author: Dipayan Das <d.dipayan2002@gmail.com>
+Date:   Wed Jul 3 22:48:07 2024 +0530
+
+    added basics of gender and sexuality
+
+[33mcommit 430f3fa809d23f5914c7a7fd6d0406b1f6cab431[m
+Author: Dipayan Das <d.dipayan2002@gmail.com>
+Date:   Wed Jul 3 22:06:52 2024 +0530
+
+    added preliminary identities in detail
+
+[33mcommit da79b60f25700cbe0247ada8e4e8a08f1f46da99[m
+Author: Dipayan Das <d.dipayan2002@gmail.com>
+Date:   Wed Jul 3 21:02:51 2024 +0530
+
+    added preliminary identity page
+
+[33mcommit a18e8de1102b81d7c8e3990a11364119b4bac35f[m
+Author: Dipayan Das <d.dipayan2002@gmail.com>
+Date:   Tue Jul 2 17:37:52 2024 +0530
+
+    Added marquee and flags
+
+[33mcommit caa64a072389761d8e0c68725e268b792f0b90a5[m
+Author: Dipayan Das <d.dipayan2002@gmail.com>
+Date:   Tue Jul 2 16:07:02 2024 +0530
+
+    Added what we do page
+
+[33mcommit 328cb4d1d0652e75ace563e4583a266b6ac5f727[m
+Author: Dipayan Das <d.dipayan2002@gmail.com>
+Date:   Tue Jul 2 00:40:26 2024 +0530
+
+    My first commit
