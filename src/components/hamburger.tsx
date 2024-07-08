@@ -38,6 +38,10 @@ export default function ThemeSwitcher() {
                         Blog
                 </Link>
                 <Link className="block w-full text-text border-b-2 border-border dark:border-darkBorder bg-main px-5 py-4 hover:bg-mainAccent"
+                    href="/saathi-connect">
+                        Connect
+                </Link>
+                <Link className="block w-full text-text border-b-2 border-border dark:border-darkBorder bg-main px-5 py-4 hover:bg-mainAccent"
                     href="/about">
                         About Us
                 </Link>

@@ -28,6 +28,10 @@ export default function Nav() {
             text: 'Blog',
         },
         {
+            path: '/saathi-connect',
+            text: 'Connect'
+        },
+        {
             path: '/about',
             text: 'About',
         },

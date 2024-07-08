@@ -45,10 +45,12 @@ const Star3 = () => {
 export default function Faq() {
   return (
     <div>
-      <section className=" dark:bg-darkBg bg-bg py-20 font-base lg:py-[100px]">
-        <h2 className="mb-14 px-5 text-center text-2xl font-heading md:text-3xl lg:mb-20 lg:text-4xl">
-          Frequently asked questions
+      <section className="  bg-faq py-20 font-base lg:py-[100px] ">
+        <h2 className="mb-14 px-5 text-center text-2xl font-heading md:text-6xl lg:mb-20 lg:text-4xl">
+          <span className='text-[black] bg-white'>Frequently asked questions</span>
         </h2>
+
+
 
         <div className="mx-auto grid w-[700px] max-w-full px-5">
           <Accordion className="text-base sm:text-lg" type="single" collapsible>
@@ -87,6 +89,10 @@ export default function Faq() {
           </Accordion>
         </div>
       </section>
+
+
+
+
       <div>
         <Marquee
           className="border-y-border dark:border-y-darkBorder dark:border-darkBorder dark:bg-darkBg border-y-2 bg-white py-3 font-base sm:py-5"

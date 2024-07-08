@@ -15,6 +15,7 @@ const config: Config = {
         'rainbow-gradient': 'linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet)',
         aboutUs:'url(/aboutuscover.jpg)',
         aboutUsMobile:'url(/aboutuscoverMobile.jpg)',
+        faq:'url(/faq.jpeg)'
         
       },
       width: {
