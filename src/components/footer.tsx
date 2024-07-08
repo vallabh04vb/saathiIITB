@@ -4,7 +4,7 @@ import Image from "next/image"
 import insta from '@/assets/instagram.svg'
 import fb from '@/assets/facebook.svg'
 import tw from '@/assets/twitter.svg'
-
+import heart from '@/assets/heart.png'
 export default function Footer() {
   return (
     <>
@@ -42,6 +42,10 @@ export default function Footer() {
             </div>
 
           </div>
+          <div className="flex flex-col md:flex-row justify-between md:items-center items-left">
+            <span className="text-xl text-white"> An initiative by the students of IIT Bombay</span>
+
+          </div>
 
           <div className="flex flex-col md:flex-row justify-between md:items-center items-left">
 
@@ -60,8 +64,10 @@ export default function Footer() {
                 height={5000}
                 alt="Picture of the author"></Image>
             </div>
-            <div className="md:w-[38%] mb-12 md:mb-0">
-              <span className="text-xl text-white">An initiative by IIT Bombay students</span>
+            <div className="md:w-[38%] mb-12 md:mb-0 flex flex-row">
+              <span className="text-xl text-white ">Developed with</span>
+              <Image src={heart} width={50} height={50} alt="."></Image>
+              <span className="text-xl text-white ">by <a href="https://www.eshway.com" target="_blank">ESHWAY</a></span>
             </div>
           </div>
         </div>
