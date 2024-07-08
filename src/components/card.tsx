@@ -19,12 +19,12 @@ const Card = ({
 }: CardType) => {
   return (
     <Link href={'/identity/detailed'}>
-    <div className="w-full max-w-2xl h-full md:h-[200px] 2xl:h-[400px] border-black border-2 rounded-md hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] dark:hover:shadow-[8px_8px_0px_rgba(256,256,256,1)] bg-white dark:bg-fuchsia-200" >
+    <div className="w-full h-full   md:h-[500px] border-black border-2 rounded-md hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] dark:hover:shadow-[8px_8px_0px_rgba(256,256,256,1)] bg-white dark:bg-fuchsia-200" >
       <article className="w-full h-full">
         <figure className="w-full border-black border-b-2">
           <Image
             src={thumbnail}
-            alt="thumbnail"
+            alt="thumbnail" 
             width={50}
             height={50}
             className="w-full h-full object-cover"

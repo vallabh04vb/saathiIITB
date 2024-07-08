@@ -83,6 +83,7 @@ const config: Config = {
       screens: {
         w900: { raw: '(max-width: 900px)' },
         w500: { raw: '(max-width: 500px)' },
+        'w1050':' 1100'
       },
     },
   },
