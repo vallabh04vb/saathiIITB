@@ -13,7 +13,7 @@ export default function Header() {
         </h1>
         <p className="my-12 mt-8 text-lg font-normal leading-relaxed md:text-xl lg:text-2xl lg:leading-relaxed">
 
-          Saathi is IIT Bombay&349;s LGBTQ+ resource group. It was founded in 2011 to raise awareness on issues relating to the LGBTQ+ community and advocate for an inclusive campus experience for all. We are the oldest queer body in the IITs and one of the oldest across India :)
+          Saathi is IIT Bombay's LGBTQ+ resource group. It was founded in 2011 to raise awareness on issues relating to the LGBTQ+ community and advocate for an inclusive campus experience for all. We are the oldest queer body in the IITs and one of the oldest across India :)
         </p>
         <Link href={'/about'}>
           <Button
