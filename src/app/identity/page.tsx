@@ -39,29 +39,29 @@ let Cards = [
     description: "A woman whose enduring physical, romantic, and/or emotional attraction is to other women. Some lesbians may prefer to identify as gay (adj.) or as gay women. ",
   },
   {
-    img: '/assets/flags/3.webp',
+    img: '/assets/flags/4.webp',
     title: "Being Bisexual",
     description: "Someone having the capacity to be emotionally, physically, and/or sexually attracted to some people of one’s gender and another gender. This attraction does not have to be equally split or indicate a level of interest that is the same across the genders an individual may be attracted to",
 
   },
   {
-    img: '/assets/flags/4.webp',
-    title: "Being Gay",
+    img: '/assets/flags/9.webp',
+    title: "Being Pansexxual",
     description: "It refers to a person primarily emotionally, physically, and/or sexually attracted to members of the same sex/gender. It also refers to a person's sense of identity based on those attractions, related behaviors, and membership in a community of others who share those attractions."
   },
   {
-    img: '/assets/flags/5.webp',
-    title: "Being Lesbian",
+    img: '/assets/flags/7.webp',
+    title: "Being Asexual",
     description: "A woman whose enduring physical, romantic, and/or emotional attraction is to other women. Some lesbians may prefer to identify as gay (adj.) or as gay women. ",
   },
   {
-    img: '/assets/flags/6.webp',
-    title: "Being Bisexual",
+    img: '/assets/flags/11.webp',
+    title: "Being Intersex",
     description: "Someone having the capacity to be emotionally, physically, and/or sexually attracted to some people of one’s gender and another gender. This attraction does not have to be equally split or indicate a level of interest that is the same across the genders an individual may be attracted to",
 
   },
   {
-    img: '/assets/flags/7.webp',
+    img: '/assets/flags/15.webp',
     title: "Being Gay",
     description: "It refers to a person primarily emotionally, physically, and/or sexually attracted to members of the same sex/gender. It also refers to a person's sense of identity based on those attractions, related behaviors, and membership in a community of others who share those attractions."
   },
@@ -70,54 +70,7 @@ let Cards = [
     title: "Being Lesbian",
     description: "A woman whose enduring physical, romantic, and/or emotional attraction is to other women. Some lesbians may prefer to identify as gay (adj.) or as gay women. ",
   },
-  {
-    img: '/assets/flags/9.webp',
-    title: "Being Bisexual",
-    description: "Someone having the capacity to be emotionally, physically, and/or sexually attracted to some people of one’s gender and another gender. This attraction does not have to be equally split or indicate a level of interest that is the same across the genders an individual may be attracted to",
 
-  },
-  {
-    img: '/assets/flags/10.webp',
-    title: "Being Gay",
-    description: "It refers to a person primarily emotionally, physically, and/or sexually attracted to members of the same sex/gender. It also refers to a person's sense of identity based on those attractions, related behaviors, and membership in a community of others who share those attractions."
-  },
-  {
-    img: '/assets/flags/11.webp',
-    title: "Being Lesbian",
-    description: "A woman whose enduring physical, romantic, and/or emotional attraction is to other women. Some lesbians may prefer to identify as gay (adj.) or as gay women. ",
-  },
-  {
-    img: '/assets/flags/12.webp',
-    title: "Being Bisexual",
-    description: "Someone having the capacity to be emotionally, physically, and/or sexually attracted to some people of one’s gender and another gender. This attraction does not have to be equally split or indicate a level of interest that is the same across the genders an individual may be attracted to",
-
-  },
-  {
-    img: '/assets/flags/13.webp',
-    title: "Being Bisexual",
-    description: "Someone having the capacity to be emotionally, physically, and/or sexually attracted to some people of one’s gender and another gender. This attraction does not have to be equally split or indicate a level of interest that is the same across the genders an individual may be attracted to",
-
-  },
-
-  {
-    img: '/assets/flags/14.webp',
-    title: "Being Bisexual",
-    description: "Someone having the capacity to be emotionally, physically, and/or sexually attracted to some people of one’s gender and another gender. This attraction does not have to be equally split or indicate a level of interest that is the same across the genders an individual may be attracted to",
-
-  },
-
-  {
-    img: '/assets/flags/15.webp',
-    title: "Being Bisexual",
-    description: "Someone having the capacity to be emotionally, physically, and/or sexually attracted to some people of one’s gender and another gender. This attraction does not have to be equally split or indicate a level of interest that is the same across the genders an individual may be attracted to",
-
-  },
-  {
-    img: '/assets/flags/16.webp',
-    title: "Being Bisexual",
-    description: "Someone having the capacity to be emotionally, physically, and/or sexually attracted to some people of one’s gender and another gender. This attraction does not have to be equally split or indicate a level of interest that is the same across the genders an individual may be attracted to",
-
-  },
 ]
 
 
@@ -184,8 +137,8 @@ export default function Identity() {
             <div className="md:w-[20%] mb-12 md:mb-0">
               <Card
                 thumbnail={Cards[3].img}
-                title={Cards[1].title}
-                description={Cards[1].description}
+                title={Cards[3].title}
+                description={Cards[3].description}
                 callToActionText="Know More"
                 calllToActionLink="/overview"
               />
@@ -196,8 +149,8 @@ export default function Identity() {
             <div className="md:w-[20%] mb-12 md:mb-0">
               <Card
                 thumbnail={Cards[4].img}
-                title={Cards[0].title}
-                description={Cards[0].description}
+                title={Cards[4].title}
+                description={Cards[4].description}
                 callToActionText="Know More"
                 calllToActionLink="/overview"
               />
@@ -205,8 +158,8 @@ export default function Identity() {
             <div className="md:w-[20%] mb-12 md:mb-0">
               <Card
                 thumbnail={Cards[5].img}
-                title={Cards[1].title}
-                description={Cards[1].description}
+                title={Cards[5].title}
+                description={Cards[5].description}
                 callToActionText="Know More"
                 calllToActionLink="components/card"
               />
@@ -214,8 +167,8 @@ export default function Identity() {
             <div className="md:w-[20%] mb-12 md:mb-0">
               <Card
                 thumbnail={Cards[6].img}
-                title={Cards[2].title}
-                description={Cards[2].description}
+                title={Cards[6].title}
+                description={Cards[6].description}
                 callToActionText="Know More"
                 calllToActionLink="/overview"
               />
@@ -223,91 +176,14 @@ export default function Identity() {
             <div className="md:w-[20%] mb-12 md:mb-0">
               <Card
                 thumbnail={Cards[7].img}
-                title={Cards[1].title}
-                description={Cards[1].description}
+                title={Cards[7].title}
+                description={Cards[7].description}
                 callToActionText="Know More"
                 calllToActionLink="/overview"
               />
             </div>
           </div>
 
-          <div className="flex flex-col md:flex-row justify-between items-center  md:mb-6">
-            <div className="md:w-[20%] mb-12 md:mb-0">
-              <Card
-                thumbnail={Cards[9].img}
-                title={Cards[0].title}
-                description={Cards[0].description}
-                callToActionText="Know More"
-                calllToActionLink="/overview"
-              />
-            </div>
-            <div className="md:w-[20%] mb-12 md:mb-0">
-              <Card
-                thumbnail={Cards[10].img}
-                title={Cards[1].title}
-                description={Cards[1].description}
-                callToActionText="Know More"
-                calllToActionLink="components/card"
-              />
-            </div>
-            <div className="md:w-[20%] mb-12 md:mb-0">
-              <Card
-                thumbnail={Cards[11].img}
-                title={Cards[2].title}
-                description={Cards[2].description}
-                callToActionText="Know More"
-                calllToActionLink="/overview"
-              />
-            </div>
-            <div className="md:w-[20%] mb-12 md:mb-0">
-              <Card
-                thumbnail={Cards[12].img}
-                title={Cards[1].title}
-                description={Cards[1].description}
-                callToActionText="Know More"
-                calllToActionLink="/overview"
-              />
-            </div>
-          </div>
-          <div className="flex flex-col md:flex-row justify-between items-center  md:mb-6">
-            <div className="md:w-[20%] mb-12 md:mb-0">
-              <Card
-                thumbnail={Cards[13].img}
-                title={Cards[0].title}
-                description={Cards[0].description}
-                callToActionText="Know More"
-                calllToActionLink="/overview"
-              />
-            </div>
-            <div className="md:w-[20%] mb-12 md:mb-0">
-              <Card
-                thumbnail={Cards[14].img}
-                title={Cards[1].title}
-                description={Cards[1].description}
-                callToActionText="Know More"
-                calllToActionLink="components/card"
-              />
-            </div>
-            <div className="md:w-[20%] mb-12 md:mb-0">
-              <Card
-                thumbnail={Cards[15].img}
-                title={Cards[2].title}
-                description={Cards[2].description}
-                callToActionText="Know More"
-                calllToActionLink="/overview"
-              />
-            </div>
-            <div className="md:w-[20%] mb-12 md:mb-0">
-              <Card
-                thumbnail={Cards[8].img}
-                title={Cards[1].title}
-                description={Cards[1].description}
-                callToActionText="Know More"
-                calllToActionLink="/overview"
-              />
-
-            </div>
-          </div>
         </div>
 
 
