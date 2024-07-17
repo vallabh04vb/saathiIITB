@@ -31,7 +31,7 @@ let Cards = [
   {
     img: '/assets/flags/1.webp',
     title: "Being Gay",
-    description: "It refers to a person primarily emotionally, physically, and/or sexually attracted to members of the same sex/gender. It also refers to a person's sense of identity based on those attractions, related behaviors, and membership in a community of others who share those attractions."
+    description: "It refers to a person primarily emotionally, physically, and/or sexually attracted to members of the same sex/gender. It \"also refers to a person's sense of identity based on those attractions, related behaviors, and membership in a community of others who share those attractions.\""
   },
   {
     img: '/assets/flags/2.webp',
