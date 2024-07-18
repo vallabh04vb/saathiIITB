@@ -67,8 +67,9 @@ export default function Footer() {
             <div className="md:w-[38%] mb-12 md:mb-0 flex flex-row">
               <span className=" text-xl text-white ">Developed with</span>
               <div className="hover:scale-150"><Image src={heart} width={50} height={50} alt="heart logo" className="hover:scale-100"></Image></div>
-              <span className="text-xl text-white ">by <a href="https://www.eshway.com" target="_blank">ESH</a></span>
-              <span className="text-xl text-purple-500 font-black "><a href="https://www.eshway.com" target="_blank">WAY</a></span>
+              <span className="text-xl text-white  ">by</span>
+              <span className="text-xl text-purple-500 font-black"><a href="https://www.eshway.com" target="_blank">&nbsp; ESH</a></span>
+              <span className="text-xl text-white font-black "><a href="https://www.eshway.com" target="_blank">WAY</a></span>
             </div>
           </div>
         </div>
