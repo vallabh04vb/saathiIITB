@@ -34,7 +34,7 @@ let Cards = [
     description: "It refers to a person primarily emotionally, physically, and/or sexually attracted to members of the same sex/gender. It \"also refers to a person's sense of identity based on those attractions, related behaviors, and membership in a community of others who share those attractions.\""
   },
   {
-    img: '/assets/flags/2.webp',
+    img: '/assets/flags/lesbian.png',
     title: "Being Lesbian",
     description: "A woman whose enduring physical, romantic, and/or emotional attraction is to other women. Some lesbians may prefer to identify as gay (adj.) or as gay women. ",
   },
@@ -46,8 +46,13 @@ let Cards = [
   },
   {
     img: '/assets/flags/9.webp',
-    title: "Being Pansexxual",
+    title: "Being Pansexual",
     description: "It refers to a person primarily emotionally, physically, and/or sexually attracted to members of the same sex/gender. It also refers to a person's sense of identity based on those attractions, related behaviors, and membership in a community of others who share those attractions."
+  },
+  {
+    img: '/assets/flags/3.webp',
+    title: "Being Trans",
+    description: "An identity wherein one’s assigned biological sex doesn’t match their felt identity. This umbrella term includes persons who do not feel they fit into a dichotomous sex structure through which they are identified as male or female. Being transgender does not imply any specific sexual orientation. ",
   },
   {
     img: '/assets/flags/7.webp',
@@ -62,13 +67,8 @@ let Cards = [
   },
   {
     img: '/assets/flags/15.webp',
-    title: "Being Gay",
-    description: "It refers to a person primarily emotionally, physically, and/or sexually attracted to members of the same sex/gender. It also refers to a person's sense of identity based on those attractions, related behaviors, and membership in a community of others who share those attractions."
-  },
-  {
-    img: '/assets/flags/8.webp',
-    title: "Being Lesbian",
-    description: "A woman whose enduring physical, romantic, and/or emotional attraction is to other women. Some lesbians may prefer to identify as gay (adj.) or as gay women. ",
+    title: "Being Non-Binary",
+    description: "Nonbinary gender identity is just one term used to describe individuals who may experience a gender identity that is neither exclusively woman or man or is in between or beyond both genders.1﻿ Nonbinary individuals may identify as genderfluid, agender (without gender), genderqueer, or something else entirely."
   },
 
 ]

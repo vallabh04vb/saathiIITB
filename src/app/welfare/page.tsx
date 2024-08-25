@@ -3,7 +3,7 @@
 import { useState } from 'react'
 
 import Tabs from '@/components/Tabs'
-import img from '@/assets/gender-bread.webp'
+import img from '@/assets/image.png'
 import Image from 'next/image'
 import Footer from '@/components/footer';
 
@@ -65,18 +65,47 @@ export default function Detailed() {
                                         <section className="bg-pink-200 dark:bg-pink-800 w-full md:h-full snap-start snap-always shrink-0 ">
                                             <div className="px-5 md:px-24 h-full py-20 2xl:p-32 space-y-9">
                                                 <h2 className="text-6xl md:text-7xl mb-12 tracking-tight font-bold">
-                                                    Basics Of Gender And Sexuality
+                                                    Coming Out
                                                 </h2>
                                                 <div className=" justify-between items-center  border-12 margin">
-                                                    <p>The following are a starting point to understand Gender and Sexuality. It might be more complicated as you study more about it but the basics are simple enough.</p>
-                                                    <p><b className='md:text-2xl'>Sex:</b> The classification of a person as male or female. At birth, infants are assigned a sex, usually based on the appearance of their external anatomy. \(This is what is written on the birth certificate.) A person&#39;s sex, however, is actually a combination of bodily characteristics including: chromosomes, hormones, internal and external reproductive organs, and secondary sex characteristics.</p>
-                                                    <p><b className='md:text-2xl'>Gender Identity:</b> A person&#39;s internal, deeply held sense of their gender. For transgender people, their own internal gender identity does not match the sex they were assigned at birth. Most people have a gender identity of man or woman (or boy or girl). For some people, their gender identity does not fit neatly into one of those two choices (see non-binary and/or genderqueer below.) Unlike gender expression (see below) gender identity is not visible to others.</p>
-                                                    <p><b className='md:text-2xl'>Gender Expression:</b> External manifestations of gender, expressed through a person&#39;s name, pronouns, clothing, haircut, behavior, voice, and/or body characteristics. Society identifies these cues as masculine and feminine, although what is considered masculine or feminine changes over time and varies by culture. Typically, transgender people seek to align their gender expression with their gender identity, rather than the sex they were assigned at birth.</p>
-                                                    <p><b className='md:text-2xl'>Sexual Orientation:</b> The scientifically accurate term for an individual&#39;s enduring physical, romantic and/or emotional attraction to members of the same and/or opposite sex, including lesbian, gay, bisexual and heterosexual (straight) orientations.</p>
+                                                    <p>
+                                                        Coming out is a process of valuing, understanding, accepting your sexual orientation/identity. There's no right way, right time or right way to say it. Everyone has different experiences and ways to express themselves. If you don't want to or feel like doing so could cause harm to you, it's completely OK not to do so.</p>
+                                                    <p>You are well within your rights to ask whoever you tell to keep it private. If you are still closeted to some people, tell your loved ones not to disclose until you are comfortable. Remember you will always find a community of people around you who's celebrating, supporting and inspiring you for who you are.</p>
+                                                    <p>Coming out is also only a part of your LGBTQ+ journey, and while it may be an important one for many people, it doesn’t define who you are, or the ways in which you love and accept yourself.</p>
+                                                    <p>If you are ready to come out, know that there is no right or wrong time to do it. You also don’t need to find a specific reason – if you want to come out, that’s reason enough!</p>
+
                                                 </div>
-                                                <div className="flex  justify-center items-center mt-0.5">
-                                                    <Image src={img} width={800} height={1000} alt="fsdf" />
+
+                                                <div className=" justify-between items-center  border-12 margin">
+                                                    <h3><p>Few things to check/remind yourself before coming out: </p></h3>
+                                                    <p>
+                                                        <ul>
+                                                            <li>1. Choose people whom you trust the most and are supportive with your decision.</li>
+                                                            <li>2. Don't judge or question yourself by people's reaction. Some people might take time to adjust to what they hear.</li>
+                                                            <li>3. Don't give up hope if you don't get the reaction you expected. Remember everyone has the right to be who they are and are to be about all important aspects of your identity including their sexual orientation. </li>
+                                                            <li>4. Find trusted allies/people/friends/family who can help, support, motivate you all the time.</li>
+                                                            <li>5. Get help if you feel like and make use of resources available to you.</li>
+                                                        </ul>
+
+                                                    </p>
+                                                    <div className="flex  justify-center items-center mt-0.5">
+                                                        <Image src={img} width={800} height={1000} alt="fsdf" />
+                                                    </div>
                                                 </div>
+
+                                                <div className=" justify-between items-center  border-12 margin">
+                                                    <h3><p>Helplines, community groups and agencies
+                                                    </p></h3>
+                                                    <p>
+                                                        <ul>
+                                                            <li>1. Humsafar Trust : +011-46016699</li>
+                                                            <li>2. Nazariya : +91-98181 51707</li>
+                                                            <li>3. Naz foundation : +91 11 4132 5042</li>
+                                                            <li>4. Find trusted allies/people/friends/family who can help, support, motivate you all the time.</li>
+                                                        </ul>
+                                                    </p>
+                                                </div>
+
                                             </div>
                                         </section>
                                     </div>
@@ -153,7 +182,7 @@ export default function Detailed() {
                                                     <p className='my-5'>
                                                         <a href='https://docs.google.com/spreadsheets/d/1pzckT6ns2H1IlmwYwJa8EnBh_1u3gRA9cEOoA4zfilc/'><span className='font-bold'>https://docs.google.com/spreadsheets/d/1pzckT6ns2H1IlmwYwJa8EnBh_1u3gRA9cEOoA4zfilc/     </span></a>
                                                         This is a list of mental health professionals throughout the country with information about their approach to people from the community. Though each entry in this list is unverified it is more comprehensive and might be a valuable aid in your search for a compatible professional.</p>
-                                                    
+
                                                 </div>
                                                 <h3 className="text-2xl md:text-3xl mb-12 tracking-tight font-bold">Once again do not hesitate to ask for help. You can contact a professional outside or at SWC or us if you are unsure. Keep in mind that you are not alone!!.</h3>
                                             </div>
